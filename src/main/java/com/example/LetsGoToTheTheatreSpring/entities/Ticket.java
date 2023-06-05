@@ -19,7 +19,7 @@ public class Ticket {
     @Column(nullable = false)
     private LocalDate dateOfProduction;
     @ManyToOne
-    private User user;
+    private Utente utente;
     @ManyToOne
     private Seat seat;
     @ManyToOne
